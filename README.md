@@ -7,7 +7,7 @@ The goal of this project is to demonstrate the effectiveness of vertical fine-tu
 
 ## Repository Contents
 - qwen_training_data.json: The curated dataset used for Supervised Fine-Tuning (SFT), containing 200 technical instruction-output pairs.
-- fabric_expert_demo.ipynb: Google Colab notebook to run the inference UI using Gradio and 4-bit quantization.
+- Qwen_Fabric_Expert_Demo.ipynb: Google Colab notebook to run the inference UI using Gradio and 4-bit quantization.
 
 ## Model Details
 - Base Model: Qwen/Qwen2.5-7B-Instruct
