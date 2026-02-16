@@ -8,9 +8,9 @@ The goal of this project is to demonstrate the effectiveness of vertical fine-tu
 ## Repository Contents
 - qwen_training_data.json: The curated dataset used for Supervised Fine-Tuning (SFT), containing 200 technical instruction-output pairs.
 - Qwen_Fabric_Expert_Demo.ipynb: Google Colab notebook to run the inference UI using Gradio and 4-bit quantization.
+- agentic_rag_colab.ipynb: Google Colab notebook to evaluate Agentic RAG costs.
 
 ## Model Details
-- Agentic RAG: Qwen/Qwen2.5-7B-Instruct
 - Base Model: Qwen/Qwen2.5-7B-Instruct
 - Fine-tuning Method: LoRA (Low-Rank Adaptation)
 - Domain: Hyperledger Fabric (Architecture, Chaincode Lifecycle, Network Configuration)
