@@ -1,6 +1,6 @@
 # Hyperledger Fabric Expert SLM
 
-This repository contains the resources for a specialized Small Language Model (SLM) focused on Hyperledger Fabric. The model is a fine-tuned version of Qwen 2.5 7B Instruct.
+This repository contains the resources for a comparison between a specialized Small Language Model (SLM) focused on Hyperledger Fabric (the model is a fine-tuned version of Qwen 2.5 7B Instruct) and an Agentic RAG architecture.
 
 ## Project Overview
 The goal of this project is to demonstrate the effectiveness of vertical fine-tuning on technical domains using limited computational resources. The model has been optimized to provide accurate architectural and operational guidance for Hyperledger Fabric environments.
@@ -16,7 +16,7 @@ The goal of this project is to demonstrate the effectiveness of vertical fine-tu
 - Domain: Hyperledger Fabric (Architecture, Chaincode Lifecycle, Network Configuration)
 
 ## Hardware Requirements
-To run the provided notebook, a GPU with at least 16GB of VRAM (such as NVIDIA T4 or L4) is required. The model is loaded in 4-bit precision to optimize memory usage.
+To run the provided notebook, a GPU with at least 16GB of VRAM (such as NVIDIA T4 or L4) is required. The model is loaded in 4-bit precision to optimize memory usage (for Fine-Tuned SLM) while CPU for Agentic RAG.
 
 ## License
 This project is licensed under the Apache License 2.0.
